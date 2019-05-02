@@ -1,0 +1,16 @@
+digraph G {
+	/* all styles define here */
+	start [style = filled, color=lightgrey];
+	end [ color=cyan];
+	a,b [ color=yellow ];
+	
+	/* individual style define here like label */
+	a[label="aaaaaaa"];
+	b[label="bbbbbbb"];
+	
+	/* edge define here */
+	start -> a;
+	a -> b;
+	b -> end;
+}
+

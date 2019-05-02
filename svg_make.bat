@@ -1,0 +1,1 @@
+dot -Tsvg template.dot >template.svg
